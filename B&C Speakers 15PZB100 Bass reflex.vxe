@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--VituixCAD ENCLOSURE FILE-->
+<ENCLOSURE>
+  <DrvManufacturer>B&amp;C Speakers</DrvManufacturer>
+  <DrvModel>15PZB100</DrvModel>
+  <chkOnlineDatabase>False</chkOnlineDatabase>
+  <cmbDriverCount>1 driver</cmbDriverCount>
+  <chkIsobaric>False</chkIsobaric>
+  <chkIsobaricSeries>False</chkIsobaricSeries>
+  <txtMme>0</txtMme>
+  <txtEg>44.721</txtEg>
+  <txtPg>250</txtPg>
+  <txtRg>0</txtRg>
+  <optEg>False</optEg>
+  <optPg>True</optPg>
+  <optDriverSeries>True</optDriverSeries>
+  <optDriverParallel>False</optDriverParallel>
+  <optDriverConn22>False</optDriverConn22>
+  <optDriverConn33>False</optDriverConn33>
+  <txtDrvName>B&amp;C Speakers 15PZB100</txtDrvName>
+  <cmbEnclosureType>Bass reflex</cmbEnclosureType>
+  <chkAutoAlign>True</chkAutoAlign>
+  <cmbDrivers>D1 Driver #1</cmbDrivers>
+  <chkCrossover>False</chkCrossover>
+  <chkDiffraction>False</chkDiffraction>
+  <txtDiffractionFile />
+  <txtBoxRVb>57</txtBoxRVb>
+  <txtBoxRQa>30</txtBoxRQa>
+  <txtBoxRQl>7</txtBoxRQl>
+  <txtBoxRFb>57</txtBoxRFb>
+  <chkBoxRFb>False</chkBoxRFb>
+  <txtVentRLen>17.8</txtVentRLen>
+  <txtVentRDia>10.2042298957431</txtVentRDia>
+  <txtVentRArea>81.7806108801283</txtVentRArea>
+  <chkVentRArea>False</chkVentRArea>
+  <txtVentRQp>30</txtVentRQp>
+  <txtVentRNbr>2</txtVentRNbr>
+  <txtEndCorR>0.85</txtEndCorR>
+  <chkShowElectrical>False</chkShowElectrical>
+  <cmsShowInductance>False</cmsShowInductance>
+</ENCLOSURE>

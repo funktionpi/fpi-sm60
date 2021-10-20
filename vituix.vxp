@@ -1,0 +1,555 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--VituixCAD PROJECT-->
+<!--Version 2-->
+<SPEAKER>
+  <Description />
+  <ReferenceAngle>0</ReferenceAngle>
+  <DSP>Analog</DSP>
+  <SampleRate>96000</SampleRate>
+  <DualPlane>True</DualPlane>
+  <KeywordHor>hor</KeywordHor>
+  <KeywordVer>ver</KeywordVer>
+  <AngleMultiplier>1</AngleMultiplier>
+  <XMin>20</XMin>
+  <XMax>20000</XMax>
+  <AngleStep>10</AngleStep>
+  <Interpolate>True</Interpolate>
+  <UserAnglesHor />
+  <UserAnglesVer />
+  <FrontWall>False</FrontWall>
+  <FrontWallZ>1000</FrontWallZ>
+  <LeftWall>False</LeftWall>
+  <LeftWallX>-1000</LeftWallX>
+  <Ceiling>False</Ceiling>
+  <CeilingY>1500</CeilingY>
+  <Floor>False</Floor>
+  <FloorY>-1000</FloorY>
+  <Toein>25</Toein>
+  <AbsorpWall>2</AbsorpWall>
+  <AbsorpCeil>2</AbsorpCeil>
+  <AbsorpFloor>2</AbsorpFloor>
+  <ReferDistance>2500</ReferDistance>
+  <PlaneRotation>0</PlaneRotation>
+  <DrvOffsetX>0</DrvOffsetX>
+  <DrvOffsetY>0</DrvOffsetY>
+  <AxialTarget>
+    <FreqMin>20.0</FreqMin>
+    <FreqMax>20000.0</FreqMax>
+    <SPL>85.0</SPL>
+    <Tilt>0.0</Tilt>
+    <DrvN>1</DrvN>
+    <Invert>False</Invert>
+  </AxialTarget>
+  <PowerTarget>
+    <FreqMin>20.0</FreqMin>
+    <FreqMax>20000.0</FreqMax>
+    <SPL>85.0</SPL>
+    <Tilt>0.0</Tilt>
+    <DrvN>1</DrvN>
+    <Invert>False</Invert>
+  </PowerTarget>
+  <DRIVER di="0">
+    <Model>Driver #1</Model>
+    <SPL>80</SPL>
+    <Z>8</Z>
+    <ExtendedData>False</ExtendedData>
+    <ResponseDirectory />
+    <ResponseScale>1</ResponseScale>
+    <ResponseDelay>0</ResponseDelay>
+    <ResponseInvert>False</ResponseInvert>
+    <ResponseMute>False</ResponseMute>
+    <MinimumPhase>False</MinimumPhase>
+    <ResponseSmooth>None</ResponseSmooth>
+    <ImpedanceFile />
+    <ImpedanceScale>1</ImpedanceScale>
+    <RESPONSE ri="0">
+      <FileName />
+      <Hor>0</Hor>
+      <Ver>0</Ver>
+    </RESPONSE>
+  </DRIVER>
+  <Variant>0</Variant>
+  <CROSSOVER>
+    <PART xi="0">
+      <Type>Generator</Type>
+      <CenX>3</CenX>
+      <CenY>9</CenY>
+      <PartID>G1</PartID>
+      <GUID />
+      <PARAM pi="0">
+        <Name>Eg</Name>
+        <Value>2.83</Value>
+        <Unit>V</Unit>
+        <Optimize>False</Optimize>
+        <Expression />
+        <Min>0.01</Min>
+        <Max>200</Max>
+        <OptiBlock>False</OptiBlock>
+      </PARAM>
+      <PARAM pi="1">
+        <Name>Rg</Name>
+        <Value>0.001</Value>
+        <Unit>Ω</Unit>
+        <Optimize>False</Optimize>
+        <Expression />
+        <Min>0.001</Min>
+        <Max>1000</Max>
+        <OptiBlock>False</OptiBlock>
+      </PARAM>
+      <WIRE wi="0">
+        <X>3</X>
+        <Y>6</Y>
+      </WIRE>
+      <WIRE wi="1">
+        <X>3</X>
+        <Y>12</Y>
+      </WIRE>
+    </PART>
+    <PART xi="1">
+      <Type>Ground</Type>
+      <CenX>3</CenX>
+      <CenY>13</CenY>
+      <Open>False</Open>
+      <Rotated>False</Rotated>
+      <GUID />
+      <WIRE wi="0">
+        <X>3</X>
+        <Y>12</Y>
+      </WIRE>
+    </PART>
+    <PART xi="2">
+      <Type>Driver</Type>
+      <CenX>33</CenX>
+      <CenY>9</CenY>
+      <Model>Driver #1</Model>
+      <Open>False</Open>
+      <Shorted>False</Shorted>
+      <Muted>False</Muted>
+      <Hidden>False</Hidden>
+      <Inverted>False</Inverted>
+      <PartID>D1</PartID>
+      <GUID />
+      <DriverTarget>
+        <FreqMin>20.0</FreqMin>
+        <FreqMax>20000.0</FreqMax>
+        <SPL>85.0</SPL>
+        <Tilt>0.0</Tilt>
+        <DrvN>1</DrvN>
+        <Invert>False</Invert>
+      </DriverTarget>
+      <FilterTarget>
+        <FreqMin>20.0</FreqMin>
+        <FreqMax>20000.0</FreqMax>
+        <SPL>0.0</SPL>
+        <Tilt>0.0</Tilt>
+        <DrvN>1</DrvN>
+        <Invert>False</Invert>
+      </FilterTarget>
+      <PARAM pi="0">
+        <Name>X</Name>
+        <Value>0</Value>
+        <Unit>mm</Unit>
+        <Optimize>False</Optimize>
+        <Expression />
+        <Min>-2000</Min>
+        <Max>2000</Max>
+        <OptiBlock>False</OptiBlock>
+      </PARAM>
+      <PARAM pi="1">
+        <Name>Y</Name>
+        <Value>0</Value>
+        <Unit>mm</Unit>
+        <Optimize>False</Optimize>
+        <Expression />
+        <Min>-5000</Min>
+        <Max>5000</Max>
+        <OptiBlock>False</OptiBlock>
+      </PARAM>
+      <PARAM pi="2">
+        <Name>Z</Name>
+        <Value>0</Value>
+        <Unit>mm</Unit>
+        <Optimize>False</Optimize>
+        <Expression />
+        <Min>-2000</Min>
+        <Max>2000</Max>
+        <OptiBlock>False</OptiBlock>
+      </PARAM>
+      <PARAM pi="3">
+        <Name>R</Name>
+        <Value>0</Value>
+        <Unit>deg</Unit>
+        <Optimize>False</Optimize>
+        <Expression />
+        <Min>-180</Min>
+        <Max>180</Max>
+        <OptiBlock>False</OptiBlock>
+      </PARAM>
+      <PARAM pi="4">
+        <Name>T</Name>
+        <Value>0</Value>
+        <Unit>deg</Unit>
+        <Optimize>False</Optimize>
+        <Expression />
+        <Min>-180</Min>
+        <Max>180</Max>
+        <OptiBlock>False</OptiBlock>
+      </PARAM>
+      <WIRE wi="0">
+        <X>32</X>
+        <Y>6</Y>
+      </WIRE>
+      <WIRE wi="1">
+        <X>32</X>
+        <Y>12</Y>
+      </WIRE>
+    </PART>
+    <PART xi="3">
+      <Type>Ground</Type>
+      <CenX>32</CenX>
+      <CenY>13</CenY>
+      <Open>False</Open>
+      <Rotated>False</Rotated>
+      <GUID />
+      <WIRE wi="0">
+        <X>32</X>
+        <Y>12</Y>
+      </WIRE>
+    </PART>
+  </CROSSOVER>
+  <ChartAverage>
+    <ChartType>LineChart</ChartType>
+    <Title>Power &amp; DI</Title>
+    <Visible>True</Visible>
+    <BackColor>Window</BackColor>
+    <BorderColor>WindowFrame</BorderColor>
+    <AxisX>
+      <Enabled>True</Enabled>
+      <Minimum>20</Minimum>
+      <Maximum>20000</Maximum>
+      <MajorGrid>
+        <Enabled>True</Enabled>
+        <Interval>10</Interval>
+      </MajorGrid>
+      <MinorGrid>
+        <Enabled>True</Enabled>
+        <Interval>2</Interval>
+      </MinorGrid>
+    </AxisX>
+    <AxisY>
+      <Enabled>True</Enabled>
+      <Minimum>55</Minimum>
+      <Maximum>95</Maximum>
+      <MajorGrid>
+        <Enabled>True</Enabled>
+        <Interval>5</Interval>
+      </MajorGrid>
+      <MinorGrid>
+        <Enabled>True</Enabled>
+        <Interval>1</Interval>
+      </MinorGrid>
+    </AxisY>
+    <AxisY2>
+      <Enabled>True</Enabled>
+      <Minimum>-5</Minimum>
+      <Maximum>35</Maximum>
+      <MajorGrid>
+        <Enabled>True</Enabled>
+        <Interval>5</Interval>
+      </MajorGrid>
+      <MinorGrid>
+        <Enabled>False</Enabled>
+        <Interval>2</Interval>
+      </MinorGrid>
+    </AxisY2>
+    <Trace>
+      <BorderColor>Salmon</BorderColor>
+      <FillColor>Salmon</FillColor>
+      <BorderWidth>2</BorderWidth>
+      <DashStyle>Solid</DashStyle>
+      <Curve>True</Curve>
+      <Enabled>True</Enabled>
+      <Marker>False</Marker>
+      <Name>ERDItot</Name>
+      <ShowXMax>1000000</ShowXMax>
+      <ShowXMin>-1000000</ShowXMin>
+      <ShowYMax>1000000</ShowYMax>
+      <ShowYMin>-1000000</ShowYMin>
+      <ToolTip>ERDI Total</ToolTip>
+      <YAxisType>Secondary</YAxisType>
+      <Z>0</Z>
+    </Trace>
+    <Trace>
+      <BorderColor>Cyan</BorderColor>
+      <FillColor>Cyan</FillColor>
+      <BorderWidth>2</BorderWidth>
+      <DashStyle>Solid</DashStyle>
+      <Curve>True</Curve>
+      <Enabled>True</Enabled>
+      <Marker>False</Marker>
+      <Name>ERtot</Name>
+      <ShowXMax>1000000</ShowXMax>
+      <ShowXMin>-1000000</ShowXMin>
+      <ShowYMax>1000000</ShowYMax>
+      <ShowYMin>-1000000</ShowYMin>
+      <ToolTip>ER Total</ToolTip>
+      <YAxisType>Primary</YAxisType>
+      <Z>0</Z>
+    </Trace>
+    <Trace>
+      <BorderColor>Olive</BorderColor>
+      <FillColor>Olive</FillColor>
+      <BorderWidth>1</BorderWidth>
+      <DashStyle>Solid</DashStyle>
+      <Curve>True</Curve>
+      <Enabled>False</Enabled>
+      <Marker>False</Marker>
+      <Name>ERDIver</Name>
+      <ShowXMax>1000000</ShowXMax>
+      <ShowXMin>-1000000</ShowXMin>
+      <ShowYMax>1000000</ShowYMax>
+      <ShowYMin>-1000000</ShowYMin>
+      <ToolTip>ERDI Vertical</ToolTip>
+      <YAxisType>Secondary</YAxisType>
+      <Z>0</Z>
+    </Trace>
+    <Trace>
+      <BorderColor>DarkGoldenrod</BorderColor>
+      <FillColor>DarkGoldenrod</FillColor>
+      <BorderWidth>2</BorderWidth>
+      <DashStyle>Solid</DashStyle>
+      <Curve>True</Curve>
+      <Enabled>False</Enabled>
+      <Marker>False</Marker>
+      <Name>ERver</Name>
+      <ShowXMax>1000000</ShowXMax>
+      <ShowXMin>-1000000</ShowXMin>
+      <ShowYMax>1000000</ShowYMax>
+      <ShowYMin>-1000000</ShowYMin>
+      <ToolTip>ER Vertical</ToolTip>
+      <YAxisType>Primary</YAxisType>
+      <Z>0</Z>
+    </Trace>
+    <Trace>
+      <BorderColor>SaddleBrown</BorderColor>
+      <FillColor>SaddleBrown</FillColor>
+      <BorderWidth>1</BorderWidth>
+      <DashStyle>Solid</DashStyle>
+      <Curve>True</Curve>
+      <Enabled>False</Enabled>
+      <Marker>False</Marker>
+      <Name>ERceil</Name>
+      <ShowXMax>1000000</ShowXMax>
+      <ShowXMin>-1000000</ShowXMin>
+      <ShowYMax>1000000</ShowYMax>
+      <ShowYMin>-1000000</ShowYMin>
+      <ToolTip>ER Ceiling</ToolTip>
+      <YAxisType>Primary</YAxisType>
+      <Z>0</Z>
+    </Trace>
+    <Trace>
+      <BorderColor>DodgerBlue</BorderColor>
+      <FillColor>DodgerBlue</FillColor>
+      <BorderWidth>1</BorderWidth>
+      <DashStyle>Solid</DashStyle>
+      <Curve>True</Curve>
+      <Enabled>False</Enabled>
+      <Marker>False</Marker>
+      <Name>ERfloor</Name>
+      <ShowXMax>1000000</ShowXMax>
+      <ShowXMin>-1000000</ShowXMin>
+      <ShowYMax>1000000</ShowYMax>
+      <ShowYMin>-1000000</ShowYMin>
+      <ToolTip>ER Floor</ToolTip>
+      <YAxisType>Primary</YAxisType>
+      <Z>0</Z>
+    </Trace>
+    <Trace>
+      <BorderColor>Purple</BorderColor>
+      <FillColor>Purple</FillColor>
+      <BorderWidth>1</BorderWidth>
+      <DashStyle>Solid</DashStyle>
+      <Curve>True</Curve>
+      <Enabled>False</Enabled>
+      <Marker>False</Marker>
+      <Name>ERDIhor</Name>
+      <ShowXMax>1000000</ShowXMax>
+      <ShowXMin>-1000000</ShowXMin>
+      <ShowYMax>1000000</ShowYMax>
+      <ShowYMin>-1000000</ShowYMin>
+      <ToolTip>ERDI Horizontal</ToolTip>
+      <YAxisType>Secondary</YAxisType>
+      <Z>0</Z>
+    </Trace>
+    <Trace>
+      <BorderColor>DarkCyan</BorderColor>
+      <FillColor>DarkCyan</FillColor>
+      <BorderWidth>2</BorderWidth>
+      <DashStyle>Solid</DashStyle>
+      <Curve>True</Curve>
+      <Enabled>False</Enabled>
+      <Marker>False</Marker>
+      <Name>ERhor</Name>
+      <ShowXMax>1000000</ShowXMax>
+      <ShowXMin>-1000000</ShowXMin>
+      <ShowYMax>1000000</ShowYMax>
+      <ShowYMin>-1000000</ShowYMin>
+      <ToolTip>ER Horizontal</ToolTip>
+      <YAxisType>Primary</YAxisType>
+      <Z>0</Z>
+    </Trace>
+    <Trace>
+      <BorderColor>Green</BorderColor>
+      <FillColor>Green</FillColor>
+      <BorderWidth>1</BorderWidth>
+      <DashStyle>Solid</DashStyle>
+      <Curve>True</Curve>
+      <Enabled>False</Enabled>
+      <Marker>False</Marker>
+      <Name>ERrear</Name>
+      <ShowXMax>1000000</ShowXMax>
+      <ShowXMin>-1000000</ShowXMin>
+      <ShowYMax>1000000</ShowYMax>
+      <ShowYMin>-1000000</ShowYMin>
+      <ToolTip>ER Rear</ToolTip>
+      <YAxisType>Primary</YAxisType>
+      <Z>0</Z>
+    </Trace>
+    <Trace>
+      <BorderColor>OrangeRed</BorderColor>
+      <FillColor>OrangeRed</FillColor>
+      <BorderWidth>1</BorderWidth>
+      <DashStyle>Solid</DashStyle>
+      <Curve>True</Curve>
+      <Enabled>False</Enabled>
+      <Marker>False</Marker>
+      <Name>ERside</Name>
+      <ShowXMax>1000000</ShowXMax>
+      <ShowXMin>-1000000</ShowXMin>
+      <ShowYMax>1000000</ShowYMax>
+      <ShowYMin>-1000000</ShowYMin>
+      <ToolTip>ER Side</ToolTip>
+      <YAxisType>Primary</YAxisType>
+      <Z>0</Z>
+    </Trace>
+    <Trace>
+      <BorderColor>Orchid</BorderColor>
+      <FillColor>Orchid</FillColor>
+      <BorderWidth>1</BorderWidth>
+      <DashStyle>Solid</DashStyle>
+      <Curve>True</Curve>
+      <Enabled>False</Enabled>
+      <Marker>False</Marker>
+      <Name>ERfront</Name>
+      <ShowXMax>1000000</ShowXMax>
+      <ShowXMin>-1000000</ShowXMin>
+      <ShowYMax>1000000</ShowYMax>
+      <ShowYMin>-1000000</ShowYMin>
+      <ToolTip>ER Front</ToolTip>
+      <YAxisType>Primary</YAxisType>
+      <Z>0</Z>
+    </Trace>
+    <Trace>
+      <BorderColor>DarkOrange</BorderColor>
+      <FillColor>DarkOrange</FillColor>
+      <BorderWidth>2</BorderWidth>
+      <DashStyle>Solid</DashStyle>
+      <Curve>True</Curve>
+      <Enabled>True</Enabled>
+      <Marker>False</Marker>
+      <Name>Room</Name>
+      <ShowXMax>1000000</ShowXMax>
+      <ShowXMin>-1000000</ShowXMin>
+      <ShowYMax>1000000</ShowYMax>
+      <ShowYMin>-1000000</ShowYMin>
+      <ToolTip>In-room response</ToolTip>
+      <YAxisType>Primary</YAxisType>
+      <Z>0</Z>
+    </Trace>
+    <Trace>
+      <BorderColor>Red</BorderColor>
+      <FillColor>Red</FillColor>
+      <BorderWidth>2</BorderWidth>
+      <DashStyle>Solid</DashStyle>
+      <Curve>True</Curve>
+      <Enabled>True</Enabled>
+      <Marker>False</Marker>
+      <Name>DI</Name>
+      <ShowXMax>1000000</ShowXMax>
+      <ShowXMin>-1000000</ShowXMin>
+      <ShowYMax>1000000</ShowYMax>
+      <ShowYMin>-1000000</ShowYMin>
+      <ToolTip>Directivity Index</ToolTip>
+      <YAxisType>Secondary</YAxisType>
+      <Z>0</Z>
+    </Trace>
+    <Trace>
+      <BorderColor>Blue</BorderColor>
+      <FillColor>Blue</FillColor>
+      <BorderWidth>2</BorderWidth>
+      <DashStyle>Solid</DashStyle>
+      <Curve>True</Curve>
+      <Enabled>True</Enabled>
+      <Marker>False</Marker>
+      <Name>Power</Name>
+      <ShowXMax>1000000</ShowXMax>
+      <ShowXMin>-1000000</ShowXMin>
+      <ShowYMax>1000000</ShowYMax>
+      <ShowYMin>-1000000</ShowYMin>
+      <ToolTip>Power response</ToolTip>
+      <YAxisType>Primary</YAxisType>
+      <Z>0</Z>
+    </Trace>
+    <Trace>
+      <BorderColor>YellowGreen</BorderColor>
+      <FillColor>YellowGreen</FillColor>
+      <BorderWidth>2</BorderWidth>
+      <DashStyle>Solid</DashStyle>
+      <Curve>True</Curve>
+      <Enabled>False</Enabled>
+      <Marker>False</Marker>
+      <Name>Liswin</Name>
+      <ShowXMax>1000000</ShowXMax>
+      <ShowXMin>-1000000</ShowXMin>
+      <ShowYMax>1000000</ShowYMax>
+      <ShowYMin>-1000000</ShowYMin>
+      <ToolTip>Listening window</ToolTip>
+      <YAxisType>Primary</YAxisType>
+      <Z>0</Z>
+    </Trace>
+    <Trace>
+      <BorderColor>WindowFrame</BorderColor>
+      <FillColor>WindowFrame</FillColor>
+      <BorderWidth>2</BorderWidth>
+      <DashStyle>Solid</DashStyle>
+      <Curve>True</Curve>
+      <Enabled>True</Enabled>
+      <Marker>False</Marker>
+      <Name>Reference</Name>
+      <ShowXMax>1000000</ShowXMax>
+      <ShowXMin>-1000000</ShowXMin>
+      <ShowYMax>1000000</ShowYMax>
+      <ShowYMin>-1000000</ShowYMin>
+      <ToolTip>Reference angle</ToolTip>
+      <YAxisType>Primary</YAxisType>
+      <Z>0</Z>
+    </Trace>
+    <Trace>
+      <BorderColor>Magenta</BorderColor>
+      <FillColor>Magenta</FillColor>
+      <BorderWidth>1</BorderWidth>
+      <DashStyle>Solid</DashStyle>
+      <Curve>True</Curve>
+      <Enabled>True</Enabled>
+      <Marker>False</Marker>
+      <Name>Target</Name>
+      <ShowXMax>20000</ShowXMax>
+      <ShowXMin>20</ShowXMin>
+      <ShowYMax>1000000</ShowYMax>
+      <ShowYMin>-1000000</ShowYMin>
+      <ToolTip>Target 0 dB/oct</ToolTip>
+      <YAxisType>Primary</YAxisType>
+      <Z>0</Z>
+    </Trace>
+  </ChartAverage>
+</SPEAKER>

@@ -1,0 +1,7 @@
+Ext: 113
+
+Cage: 51.6
+Driver: 5.2
+Boite: 4.67
+Vent: 6.06
+Pied: 0.4689

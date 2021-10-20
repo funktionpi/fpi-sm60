@@ -1,0 +1,12 @@
+BC 15PZB100
+
+Sd=855.0
+Bl=25.8
+Cms=106.1E-06
+Rms=5.8
+Mmd=136.4
+Le=2.0
+Re=5.2
+Pmax=1400.0
+Xmax=8.0
+LossyLe=0
